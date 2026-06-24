@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frame Archive — Photo Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="gpt.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Frame Archive</div>
+        <div class="roll-tag">Developed by ahsan abrar</div>
+      </nav>
+
+      <div class="content">
+        <span class="eyebrow">Curated Collection</span>
+        <h1 class="hero-title">Welcome to<br />Frame Archive</h1>
+        <p class="hero-sub">
+          fourty-eight frames pulled from landscapes, cities, animals and
+          portraits — sorted, filtered, and held up to the light.
+        </p>
+      </div>
+    </header>
+
+    <div class="filters" id="filters"></div>
+
+    <div class="gallery" id="gallery"></div>
+
+    <div class="lightbox" id="lightbox">
+      <button class="lb-close" id="lbClose">&times;</button>
+      <button class="lb-nav lb-prev" id="lbPrev">&#8249;</button>
+      <div class="lightbox-stage">
+        <img id="lbImage" src="" alt="" />
+      </div>
+      <button class="lb-nav lb-next" id="lbNext">&#8250;</button>
+    </div>
+    <div class="lightbox-caption" id="lbCaptionWrap">
+      <span class="frame-num" id="lbNum"></span><span id="lbTitle"></span>
+    </div>
+
+    <footer class="site-footer">
+      <span>Frame Archive</span>
+      <span class="dot">&middot;</span>
+      <span>Developed for viewing on any screen</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
