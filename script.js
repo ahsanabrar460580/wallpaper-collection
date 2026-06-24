@@ -5,7 +5,7 @@ const photos = [
   { src: "https://www.muchbetteradventures.com/magazine/content/images/2019/10/29122602/iStock-971053374.jpg", title: "Ice Skating", category: "landscape" },
   { src: "https://images.stockcake.com/public/9/6/0/960c2271-b753-4bde-af3a-c014131c7a06_large/earth-from-above-stockcake.jpg", title: "Earth View", category: "landscape" },
   { src: "https://cdn.travelstride.com/media/wysiwyg/1landscape-2265897_1920_1.jpg", title: "Beach View", category: "landscape" },
-  { src: "https://www.worldatlas.com/r/w1200/upload/5b/c7/26/georgia-aquarium.jpg", title: "Underwater View", category: "landscape" },
+  { src: "https://t4.ftcdn.net/jpg/10/15/52/23/360_F_1015522373_Q34xhiDaoR3WzDMQTGYB43RV7BTYYmLC.jpg", title: "Underwater View", category: "landscape" },
   { src: "https://modernfarmer.com/wp-content/uploads/2014/08/bighornsheep12001.jpg", title: "Bighorn Sheep", category: "animals" },
   { src: "https://imageio.forbes.com/specials-images/imageserve/67c038498506d05636169e92/Paris--France-best-cities-to-visit/0x0.jpg?format=jpg&width=960", title: "Paris", category: "city" },
   { src: "https://www.travelandleisure.com/thmb/YWguIWwKKgQ1FiA5DUxQ0OOvnUY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/singapore_CITYBEAUTY1222-79fecfb20fc148a88bda4f5af6f07865.jpg", title: "Singapore", category: "city" },
